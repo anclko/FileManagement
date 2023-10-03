@@ -1,5 +1,10 @@
 This code is implemented for "Operating System" Course at Kristianstad University.
 
+TestProcessBuilder needs to be opened as follow:
+- Open CMD
+- open by first typing in cmd: javac TestProcessBuilder.java
+- then run the program as normal in cmd: java TestProcessBuilder
+
 The purpose of the seminar this code is intended for is to show how the file system works for an operating system and also showcase input/output-operations.
 
 For task 1 - Had to implement filedump method and exception handling 
