@@ -1,0 +1,16 @@
+I decided to implement the delete command.
+
+To use the delete, it will do what it does for the other commands first and check if there are enough
+arguments in the command line (so if it was written as: 'the command + the file name you want to delete)
+
+It first checks if the command has a command and the name of a file by checking the size of the input (what is written in cmd). If not. it returns an error.
+
+It will then get the file name to delete from the 1st position in the command line
+the command is at 0 position
+
+It then creates an instance of the file name called file.
+
+It then checks that the file exists with "exists" and if it exists it goes ahead
+and deletes the file with the "delete" and if successful, prints a confirmation.
+
+Theres also exception handling if the file cant be deleted or if the file doesnt exist.
